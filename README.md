@@ -7,7 +7,19 @@
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![Typing: mypy](https://img.shields.io/badge/typing-mypy-blue)](https://github.com/python/mypy)
 
-Data science project template.
+Well structured and tested data science project template. You can use this [template](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) when creating the data sicence repository.
+
+
+📁 **Organized**
+The project structure is refereed to [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+
+🚀 **Prepared**
+Major libraries are prepared in `environment.yml`.
+
+✅ **Tested**
+`scripts` are checked by common linter when [pre-commit](https://pre-commit.com/).
+
+Here is the notebook link to provide the quick access to your analysis.
 
 [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/datascience-template/blob/main/notebooks/example.ipynb)
 
@@ -33,11 +45,7 @@ Data science project template.
     └── __init__.py                 # make tests a Python module
 ```
 
-## Getting Started
-
-Create the repository from this [template](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-After creating the repository, customize the following points.
+## Customization
 
 * `environment.yml`: Please specify the packages and versions. As a default, no version is specified.
 * `.pre-commit-config.yaml`: Please check the `rev` to check the code.
