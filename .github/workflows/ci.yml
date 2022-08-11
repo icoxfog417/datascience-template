@@ -17,5 +17,6 @@ jobs:
           auto-update-conda: true
           python-version: 3.9
           environment-file: environment.yml
+          activate-environment: ds
       - name: Testing
         run: pre-commit run --all-files
