@@ -10,14 +10,11 @@
 Well structured and tested data science project template. You can use this [template](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) when creating the data sicence repository.
 
 
-📁 **Organized**
-The project structure is refereed to [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+📁 **Organized**: The project structure is refereed to [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
-🚀 **Prepared**
-Major libraries are prepared in `environment.yml`.
+🚀 **Prepared**: Major libraries are prepared in `environment.yml`.
 
-✅ **Tested**
-`scripts` are checked by common linter when [pre-commit](https://pre-commit.com/).
+✅ **Tested**: `scripts` are checked by common linter when [pre-commit](https://pre-commit.com/).
 
 Here is the notebook link to provide the quick access to your analysis.
 
