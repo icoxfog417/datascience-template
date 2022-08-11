@@ -1,6 +1,8 @@
 # datascience-template
 
-Data science project template
+Data science project template.
+
+[![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/datascience-template/blob/main/notebooks/example.ipynb)
 
 ## Project Structure
 
@@ -23,3 +25,13 @@ Data science project template
 └── tests                           # store tests
     └── __init__.py                 # make tests a Python module
 ```
+
+## Getting Started
+
+Create the repository from this [template](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
+After creating the repository, customize the following points.
+
+* `environment.yml`: Please specify the packages and versions. As a default, no version is specified.
+* `.pre-commit-config.yaml`: Please check the `rev` to check the code.
+* Change the Notebook url for `Open in Studio Lab`.
