@@ -1,0 +1,28 @@
+[tool.flake8]
+exclude = ".git, .tox, .venv, .eggs, build, dist, docs"
+extend-ignore = "E203, W503, W504"
+max-line-length = 99
+
+[tool.black]
+exclude = """
+/(
+    .eggs
+  | .git
+  | .hg
+  | .pytest_cache
+  | .mypy_cache
+  | .tox
+  | .venv
+  | build
+  | dist
+)/
+"""
+
+[tool.isort]
+profile = "black"
+include_trailing_comma = true
+multi_line_output = 3
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true

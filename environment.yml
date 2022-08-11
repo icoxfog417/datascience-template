@@ -1,0 +1,21 @@
+name: ds
+
+channels:
+  - conda-forge
+
+dependencies:
+  - ipython
+  - ipykernel
+  - python
+  - numpy
+  - matplotlib
+  - altair
+  - scikit-learn
+  - pandas
+  - pytorch
+  - tensorflow
+  - jinja2
+  - pre-commit
+  - pip
+  - pip:
+    - -r requirements.txt
