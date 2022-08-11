@@ -18,6 +18,6 @@ jobs:
           python-version: 3.9
           environment-file: environment.yml
           activate-environment: ds
-          auto-activate-base: false
       - name: Test
+        shell: bash -l {0}
         run: pre-commit run --all-files
