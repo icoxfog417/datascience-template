@@ -12,11 +12,11 @@ Well structured and tested data science project template. You can use this [temp
 
 📁 **Organized**: The project structure is refereed to [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
-🚀 **Prepared**: Major libraries are prepared in `environment.yml`.
+🚀 **Prepared**: Major libraries are prepared in `environment.yml`. If you are familiar with [Colaboratory](https://colab.research.google.com/?utm_source=scs-index) environment, please use `environment-colab.yml` .
 
 ✅ **Tested**: `scripts` are checked by common linter when [pre-commit](https://pre-commit.com/).
 
-Here is the notebook link to provide the quick access to your analysis.
+Here is the notebook link to provide the quick access to your analysis. You can create the conda environment by Right click `Build Conda Environment` or `conda create -f environment.yml` in Studio Lab.
 
 [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/datascience-template/blob/main/notebooks/example.ipynb)
 
